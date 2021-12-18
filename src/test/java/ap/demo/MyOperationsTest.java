@@ -7,7 +7,7 @@ public class MyOperationsTest {
 
 	@Test
 	public void testAdd() {
-		fail("Not yet implemented");
+		assertEquals(8,new MyOperations().add(3, 5));
 	}
 
 }
